@@ -4,5 +4,29 @@
 }
 
 body{
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("nature.jpg");
+}
+
+.header{
+    background-color: black;
+    padding: 5px ;
+    color: #ffffff;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
